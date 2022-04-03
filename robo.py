@@ -51,7 +51,7 @@ class Robo(object):
 	
 	def create_code(self, code):
 		data = code
-		print data
+		print (data)
 		wave = []
 		wave.append(self.wf_head)
 
@@ -65,8 +65,8 @@ class Robo(object):
 			data <<= 1
 
 		wave.append(self.wf_tail)
-		print wave
-		print "end"
+		print (wave)
+		print ("end")
 		return wave
 
 	def send_wave(self, wave):

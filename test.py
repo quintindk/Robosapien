@@ -33,5 +33,5 @@ rs.send_code(0xC4)	#Hi 5
 raw_input('Enter')
 rs.send_code(0xCE)	#Roar
 
-print "fin"
+print ("fin")
 
