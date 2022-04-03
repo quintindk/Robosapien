@@ -58,10 +58,10 @@ class Robo(object):
 		for x in range(8):
 			if (data & 128 != 0):
 				wave.append(self.wf_hi)
-				print 1
+				print (1)
 			else:
 				wave.append(self.wf_lo)
-				print 0
+				print (0)
 			data <<= 1
 
 		wave.append(self.wf_tail)
