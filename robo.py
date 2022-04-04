@@ -82,6 +82,6 @@ class Robo(object):
 		time.sleep(0.5)
 
 	def clean_up(self):
-		pi.wave_clear()
-		pi.stop() # Disconnect from Pi.
+		self.pi.wave_clear()
+		self.pi.stop() # Disconnect from Pi.
 	
